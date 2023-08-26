@@ -15,7 +15,7 @@ public class Player : Entity
     {
         //Movement
         Vector2 movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        rb.MovePosition(rb.position + movement * speed * Time.deltaTime);
+        rb.MovePosition(rb.position + movement * 5 * Time.deltaTime);
 
         //flip sprite based on last input 
         if (movement.x > 0) {
