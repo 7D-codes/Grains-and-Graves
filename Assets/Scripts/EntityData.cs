@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+[CreateAssetMenu(fileName = "EntityData", menuName = "NPC/EntityData", order = 0)]
+public class EntityData : ScriptableObject 
+{
+    public string entityName;
+    public int maxHealth;
+
+    public int enrgy;
+    public int maxEnrgy;
+
+    public int attack;
+    public int defense;
+
+    public int speed;
+
+    
+}
