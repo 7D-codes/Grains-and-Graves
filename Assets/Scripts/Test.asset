@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57c387c7b16c358498536a7d8ce855ec, type: 3}
-  m_Name: Skeleton
+  m_Name: Test
   m_EditorClassIdentifier: 
-  entityName: Salah
-  health: 100
+  entityName: Test
   maxHealth: 100
-  enrgy: 20
   maxEnrgy: 20
   attack: 3
-  defense: 0
+  defense: 2
   speed: 5

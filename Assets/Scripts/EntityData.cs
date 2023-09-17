@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[CreateAssetMenu(fileName = "EntityData", menuName = "NPC/EntityData", order = 0)]
+[CreateAssetMenu(fileName = "New Entity", menuName = "EntityData", order = 0)]
 public class EntityData : ScriptableObject 
 {
     public string entityName;
     public int maxHealth;
 
-    public int enrgy;
     public int maxEnrgy;
 
     public int attack;
